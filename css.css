@@ -1,0 +1,96 @@
+@charset "utf-8";
+@media(min-width:992px) {
+    .dov {
+        width: 28%; display: inline-block;
+    }
+    .headftext {
+        width: 40%;
+    }
+	 
+}
+@media(min-width:768px) and (max-width:991px) {
+    .dov {
+        width: 42%; display: inline-block;
+    }
+	#thr{
+		/*display: block;*/ 
+		width:90%;
+	}
+    .headftext {
+        width: 30%;
+    }
+	#chiken { width: 20% }
+}
+@media(max-width:767px) {
+    .dov {
+        width: 90%;
+		display: inline-block;
+    }
+    .headftext {
+        width: 28%;
+		min-width: 75px;
+    }
+	
+	
+}
+#head {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    text-align: center;
+}
+* {
+    box-sizing: border-box
+}
+body {
+    text-align: center;
+}
+.dov {
+    text-align: left;
+    background-color: lightgrey;
+    border: 2px solid black;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    align-content: center;
+   
+	margin: 20px;
+	
+    /*position: relative;*/
+}
+.line1 {
+    width: 100%;
+    background-color: yellow;
+    /*text-align: right;*/
+}
+.text {
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    /*position: absolute;
+	top: 100 px;*/
+    clear: both;
+}
+.headftext {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    /*display: inline-block;*/
+    /*float : right ;*/
+    /*position: absolute;
+	right:0;*/
+    float: right;
+}
+#sushi {
+    background-color: lightyellow;
+    font-weight: bold;
+}
+#beef {
+    background-color: indianred;
+    color: white;
+    font-weight: bold;
+}
+#chiken {
+    background-color: lightpink;
+    font-weight: bold;
+}
+#one {}
+#two {}
+#thr {}
